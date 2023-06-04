@@ -1,0 +1,25 @@
+.photo{
+width: 100%;
+}
+
+.card1 {
+    display: flex;
+   
+    width: 80vw;
+    max-width: 21.875rem;
+    height: 28.125rem;
+    overflow: hidden;
+    border-radius: 0.625rem;
+ border: 1px rgb(130, 145, 47) solid;
+    
+  }
+
+  .card3 {
+    display: flex;
+   height: 250px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 0.625rem;
+ border: 1px rgb(22, 22, 22) solid;
+    
+  }

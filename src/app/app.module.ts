@@ -12,7 +12,8 @@ import { AkciaComponent } from './components/akcia/akcia.component';
 import { CartComponent } from './components/cart/cart.component';
 import { CartService } from './components/cart/cart.service';
 import { PayComponent } from './components/pay/pay.component';
-import { RegisterComponent } from './components/register/register.component'; // Import the CartService
+import { RegisterComponent } from './components/register/register.component';
+import { MainComponent } from './components/main/main.component'; // Import the CartService
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { RegisterComponent } from './components/register/register.component'; //
     AkciaComponent,
     CartComponent,
     PayComponent,
-    RegisterComponent
+    RegisterComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
