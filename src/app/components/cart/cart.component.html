@@ -1,0 +1,25 @@
+<div class="cart-container">
+    <h2>Cart</h2>
+    <div *ngIf="cartItems.length === 0" class="empty-cart-message">Your cart is empty.</div>
+    <div *ngFor="let item of cartItems; let i = index" class="cart-item">
+      <img [src]="item.imageURL" class="item-image" alt="Item Image">
+      <div class="item-details">
+        <h3 class="item-title">{{ item.productName }}</h3>
+        <p class="item-price">{{ item.price }}</p>
+        <button (click)="removeItem(i)">Remove</button>
+      </div>
+    </div>
+    <div *ngIf="cartItems.length > 0" class="summary">
+      <div class="summary-details">
+        <p class="summary-label">Summary:</p>
+        <div class="summary-items">
+          <div *ngFor="let item of cartItems" class="summary-item">
+            <p class="summary-item-title">{{ item.productName }}</p>
+            <p class="summary-item-price">{{ item.price }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="summary-price">Total Price: {{ summaryPrice }}</div>
+      <button *ngIf="cartItems.length > 0" (click)="pay()" class="pay-button">Pay</button>
+    </div>
+  </div>

@@ -1,0 +1,27 @@
+.content{
+    width: 100%;
+   
+  
+    min-height: 60vh;
+    height:  fit-content;
+   
+}
+
+.description p{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    font-family: roboto-light ;
+    background-color: rgba(211, 250, 250, 0.836);
+}
+
+.content img{
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    scale: 1.4;
+    top: 160px;
+}

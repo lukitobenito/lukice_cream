@@ -1,0 +1,58 @@
+.akcia{
+    width: 100%;
+    min-height: 60vh;
+    height: fit-content;
+}
+
+.akcia p{
+    color: rgb(15, 15, 15);
+    font-size: 20px;
+  position: relative;
+ text-align: center;
+ background-color: rgba(127, 255, 212, 0.521);
+ display: flex;
+ width: 450px;
+ top: 50px;
+left: 50%;
+transform: translate(-50%);
+}
+.akcia img {
+    width: 600px;
+    position: relative;
+   left: 50%;
+ transform: translate(-50%);
+ top: 100px;
+ display: inline-block;
+ box-shadow: 3px 3px 3px black ;
+ width: 450px;
+}
+
+.akcia span{
+    color: rgb(10, 10, 10); 
+    font-size: 25px;
+    font-weight: bold;
+ text-align: center;
+ 
+}
+
+.akcia2 img{
+  
+   box-shadow: 3px 3px 3px black ;
+    position: relative;
+    
+    left: 50%;
+    transform: translate(-50%);
+    top: 180px;
+    width: 450px;
+}
+h6{
+    width: 450px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 150px;
+    background-color: rgba(127, 255, 212, 0.521);
+    font-size: 20px;
+
+}
